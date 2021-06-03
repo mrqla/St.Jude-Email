@@ -1,0 +1,219 @@
+<mjml>
+    <mj-head>
+    <mj-preview>How you can help hope bloom for kids and families</mj-preview>
+
+        <mj-attributes>
+
+            /* background colors*/        
+            <mj-class name="dark-grey" background-color="#333333" />
+
+            /* font styles*/
+            <mj-class name="p-header" color="#555555" font-size="10px" font-family="'Open Sans', Arial, sans-serif"/>
+            <mj-class name="p-1" font-size="18px" font-weight="300" font-family="'Open Sans', Arial, sans-serif" line-height="135%"  />
+            <mj-class name="p-2" font-size="16px" font-weight="500" font-family="'Open Sans', Arial, sans-serif" text-transform="uppercase" line-height="135%" letter-spacing="1px" />
+            <mj-class name="p-3" font-size="12px" font-weight="500" font-family="Arial, sans-serif, 'Open Sans'" text-transform="uppercase" line-height="135%" />
+            <mj-class name="p-footer" color="#555555" font-size="10px" font-family="Arial, sans-serif" line-height="15px" />
+
+            /* MJML Attributes */
+            <mj-section padding="0" />
+            <mj-image padding="0" />
+            <mj-text padding="0" />
+
+        </mj-attributes>
+
+        <mj-style>
+            @media (max-width: 480px){
+                .mobile-1{
+                    font-size: 12px;
+                    line-height: 15px
+                }
+                .mobile-2{
+                    font-size: 8px;
+                    line-height: 15px
+                }
+                .mobile-3{
+                    font-size: 8px;
+                    line-height: 15px
+                }
+                .icon-1{
+                    width: 50%;
+                }
+                .icon-2{
+                    width: 40%;
+                }
+                .icon-3{
+                    width: 20%;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#f6f6f6">
+
+        <!-- pre header -->
+        <mj-section background-color="#f6f6f6">
+            <mj-column>
+                <mj-text mj-class="p-header">
+                    <p class="mobile-3">Trouble viewing? Read this <a href="https://www.google.com" style="color: #990000">online.</a></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- header -->
+        <mj-section background-color="#f6f6f6">
+            <mj-column padding="20px">
+            <mj-raw>
+                <img src="https://i.imgur.com/NGyotE3.png" alt="St. Jude Children's Research Hospital" style="max-width: 262px; margin: 0 auto; display: block;" class="icon-1" />
+            </mj-raw>
+            </mj-column>
+        </mj-section>
+
+        <!-- hero image -->
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://i.imgur.com/GqzWtgR.jpg" alt="St. Jude patient Delarian attending his graduation in 2019" />
+            </mj-column>
+        </mj-section>
+
+        <!-- letter section -->
+        <mj-section background-color="#ffffff" padding="20px 40px 10px 40px"> 
+            <mj-column>
+                <mj-text mj-class="p-1" color="#000000" align="left">
+                    <span class="mobile-1">Dear Brian,</span>
+                    <p class="mobile-1">Amid the hopeful signs this spring offers, we cherish the chance to pause and celebrate graduations for St. Jude kids.</p>
+                    <p class="mobile-1">As the little ones delight in completing kindergarten and the teens mark the rite of passage from high school, we are mindful of people like you.</p>
+                    <p class="mobile-1">When you support St. Jude, you help make possible the bright futures symbolized by these milestone events.</p>
+                    <p class="mobile-1">After a devastating diagnosis, after many dark days enduring awful diseases, these remarkable kids can look forward to a second chance at life.</p>
+                    <p class="mobile-1">As parents contemplate the possibilities for their kids, they feel immense gratitude for generous people dedicated to furthering the St. Jude mission.</p>
+                    <p class="mobile-1">Because supporters ensure families never receive a bill from St. Jude, moms and dads can focus on helping their child live to experience moments like these.</p>
+                    <p class="mobile-1">We are more determined than ever to give them hope they will see their child grow up, even when faced with a dire diagnosis. It is why St. Jude <a href="https://www.google.com" style="color: #1874dc">recently announced a bold plan</a> to invest in a historic expansion of our work to accelerate research and treatment for kids everywhere.</p>
+                    <p class="mobile-1">We are once again thankful to you for supporting the kids and families of St. Jude <span style="font-weight: bold">— we won’t stop until no child dies of cancer.</span></p>
+                    <span class="mobile-1">Warmest regards,</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- signature section -->
+        <mj-section background-color="#ffffff" padding="0 40px">
+            <mj-column>
+                <mj-raw>
+                    <a alias="Richard C. Shadyac Jr." conversion="false" title="Richard C. Shadyac Jr.">
+                    <br>
+                    <img src="https://i.imgur.com/S97g04Q.jpg" alt="Richard C. Shadyac Jr." class="icon-2" style="max-width: 144px;" />
+                    </a>
+                </mj-raw>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" padding="10px 40px 20px 40px">
+            <mj-column>
+                <mj-text mj-class="p-1">
+                    <p class="mobile-1">
+                        Richard C. Shadyac Jr.
+                        <br>
+                        President & CEO
+                        <br>
+                        ALSAC, the fundraising and awareness
+                        organization
+                        <br>
+                        for St. Jude Children's Research Hospital
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Donate button -->
+        <mj-section background-color="white" padding-bottom="20px">
+            <mj-column>
+                <mj-raw>
+                    <a href="https://www.google.com" >
+                    <img src="https://i.imgur.com/DHsh700.png" alt="Donate Now" style="max-width: 180px; margin: 0 auto; display: block;" class="icon-2"/>
+                    </a>
+                </mj-raw>
+            </mj-column>
+            
+        </mj-section>
+
+        <!-- Social section -->
+        <mj-section background-color="#f6f6f6" padding="30px 0">
+            <mj-column>
+                <mj-raw>
+                    <img src="https://i.imgur.com/7s8oRIV.png" alt="logo" style="max-width: 91px; margin: 0 auto; display: block;" class="icon-3"/>
+                </mj-raw>
+                <mj-image src="https://i.imgur.com/ujZPPhP.png" alt="Finding cures. Saving children. ®" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#f6f6f6">
+            <mj-column >
+                <mj-text mj-class="p-2" align="center">
+                    <span class="mobile-1">connect with us</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#f6f6f6" padding-top="10px" padding-bottom="30px" padding="10px 50px 30px 50px" >
+            <mj-group width="365px">
+                <mj-column>
+                <mj-raw>
+                    <a href="https://www.google.com">
+                    <img src="https://i.imgur.com/7Sauhv3.png" alt="facebook" style="max-width: 65px; margin: 0 auto; display: block; padding-bottom: 10px" class="icon-1"/>
+                    </a>
+                </mj-raw>
+                <mj-text mj-class="p-3" color="#324d8f" text-transform="capitalize" align="center">
+                    <span class="mobile-2">like</span>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-raw>
+                    <a href="https://www.google.com">
+                    <img src="https://i.imgur.com/PRZ37hz.png" alt="twitter" style="max-width: 65px; margin: 0 auto; display: block; padding-bottom: 10px;" class="icon-1"/>
+                    </a>
+                </mj-raw>
+                <mj-text mj-class="p-3" color="#00a1ed" text-transform="capitalize" align="center">
+                    <span class="mobile-2">follow</span>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-raw>
+                    <a href="https://www.google.com">
+                    <img src="https://i.imgur.com/rz0uOwI.png" alt="instagram" style="max-width: 65px; margin: 0 auto; display: block; padding-bottom: 10px" class="icon-1"/>
+                    </a>
+                </mj-raw>
+                <mj-text mj-class="p-3" color="#1a1a1a" text-transform="capitalize" align="center">
+                    <span class="mobile-2">follow</span>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-raw>
+                    <a href="https://www.google.com">
+                    <img src="https://i.imgur.com/tNyCLZV.png" alt="youtube" style="max-width: 65px; margin: 0 auto; display: block; padding-bottom: 10px" class="icon-1"/>
+                    </a>
+                </mj-raw>
+                <mj-text mj-class="p-3" color="#b50000" text-transform="capitalize" align="center">
+                    <span class="mobile-2">subscribe</span>
+                </mj-text>
+            </mj-column>
+            </mj-group>
+        </mj-section>
+        
+        <!-- footer section -->
+        <mj-section mj-class="dark-grey" padding-top="15px" padding-bottom="15px">
+            <mj-column>
+                <mj-text mj-class="p-footer" align="center" color="#b3b3b3">
+                    <a href="https://www.google.com" class="mobile-2" style="color: #ffffff">Unsubscribe from this email</a>. 
+                    <a href="https://www.google.com" class="mobile-2" style="color: #ffffff">Manage your email preferences</a>.
+                    <br>
+                    <a href="https://www.google.com" class="mobile-2" style="color: #ffffff">Privacy Policy</a>
+                    <a href="https://www.google.com" class="mobile-2" style="color: #ffffff">Disclosures</a>
+                    <br>
+                    <br>
+                    <span class="mobile-2">© Copyright 2021.</span> 
+                    <a href="https://www.google.com" class="mobile-2" style="color: #ffffff">St. Jude Children's Research Hospital</a>.
+                    <br>
+                    <span class="mobile-2">501 St. Jude Place, Memphis, TN 38105</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
